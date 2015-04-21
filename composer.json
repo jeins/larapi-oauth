@@ -1,0 +1,22 @@
+{
+    "name": "larapi/api",
+    "description": "Basic RESTful API package with OAuth2 for Laravel.",
+    "authors":[
+        {
+            "name": "Muhammad Juan Akbar",
+            "email": "info@mjuanakbar.info"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "league/oauth2-server": "4.1.*",
+        "illuminate/support": "4.0.x",
+        "phpunit/phpunit": "~4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Larapi\\Api": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
